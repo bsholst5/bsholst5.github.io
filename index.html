@@ -3,72 +3,12 @@
 <head>
   <meta charset="utf-8">
 <title> Temporary Home Page</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-    <style>
-        nav {
-            background-color: #D0BA60;
-            color: #3E7281;
-        }
-        #section2 {
-            background-color:#D0BA60;
-        }
-        h1,h2 {
-            color: #8A4087;
-            font-family: impact, charcoal, sans-serif;
-        }
-        #secondsection {
-            color:#3E7281;
-        }
-        .wholepage {
-            margin: 0, auto;
-            width: 960px;
-        }
-        #section3{
-            text-align: center;
-            margin: 2em;
-        }
-        li {
-            display: inline;
-            font-size: 1.1em;
-        }
-        section{
-            padding: 15px;
-        }
-        body{
-            font-family:  Verdana, Geneva, Sans-Serif;
-        }
-        .fullwidth {
-            width: 100%;                
-        }
-        #section1, #section2{
-            display: flex;
-            flex-flow: row wrap;
-            align-items: center;
-        }
-        .leftcol, .rightcol {
-            flex: 1;
-        }
-        .leftcol, .rightcol {
-            width: 48%;
-            flex: 1 0 15em;
-            margin: .5em;
-        }  
-        img {
-            max-width: 100%;
-        }
-        .social {
-            float: right;
-            padding: .5em;
-        }
-        #footer {
-            height: 55px;
-        }
-        
-    </style>
-
-<div id="wholepage"> <body>
+<body>
+    <div id="wholepage"> 
     <h1>Dry Oar Boating</h1>
-    <img alt="Logo" src="http://brothert.net/dryoar/images/dryoarlogo.png">
+    <img alt="Logo" id="logo" src="http://brothert.net/dryoar/images/dryoarlogo.png">
             <nav>
     <li><a href="index.html">Home</a></li>
     <li><a href="index.html">Rivers</a></li>
@@ -96,7 +36,11 @@
     </section>
     
     <section id="section2">
-        
+         <div class="leftcol">
+        <aside>
+        <img class="picture" src="http://brothert.net/dryoar/images/ik-rapid.jpg" alt="Wicked rapids">
+        </aside>
+            </div>
         <div class="rightcol">
     <header>
         <h2>We run Whitewater for the rush</h2>
@@ -104,11 +48,6 @@
     <article>
         <p class="secondsection">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
     </article>
-            </div>
-        <div class="leftcol">
-        <aside>
-        <img class="picture" src="http://brothert.net/dryoar/images/ik-rapid.jpg" alt="Wicked rapids">
-        </aside>
             </div>
     </section>
     
