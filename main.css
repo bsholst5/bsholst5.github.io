@@ -73,8 +73,17 @@ nav a:hover {
         }
         .social {
             float: right;
-            padding: .5em;
+			margin-right: 130px;
+			padding-top: .9em
         }
         #footer {
             height: 55px;
         }
+.copyright {
+	padding-top: 40px
+}
+
+.faq {
+	margin-top: 50px;
+	margin-left: 270px;
+}
