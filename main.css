@@ -97,12 +97,12 @@ nav a:hover {
 	color: darkgoldenrod
 }
 .ratesanddates{
-align-content: center;
+width: 100%;
 }
 .stupidcopyright{
 	padding-top: 100px;
 	width: auto;
 }
 .FAQ{
-	width: auto;
+	width: 100%;
 }
