@@ -74,16 +74,35 @@ nav a:hover {
         .social {
             float: right;
 			margin-right: 130px;
-			padding-top: 2.3em
+			padding-top: 3.3em
         }
         #footer {
             height: 55px;
         }
 .copyright {
-	padding-top: 40px
+	padding-top: 90px;
+	width: auto;
 }
 
 .faq {
 	margin-top: 50px;
 	margin-left: 270px;
+}
+.dates{
+	text-align: center;
+}
+.rates{
+	font-size: 1.2em;
+	text-align: center;
+	color: darkgoldenrod
+}
+.ratesanddates{
+align-content: center;
+}
+.stupidcopyright{
+	padding-top: 100px;
+	width: auto;
+}
+.FAQ{
+	width: auto;
 }
